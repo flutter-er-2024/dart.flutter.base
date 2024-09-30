@@ -1,0 +1,84 @@
+guide-lines
+	optimize for {usage by non-tech. people}
+	components
+		wall
+			a collective name ,for page/overlay
+			the parent/root/top-level canvas ,with widgets as children
+		widget
+			box
+				depth/nesting-level
+				background
+					color
+					surface
+						like acrylic(of "MicroSoft Windows OS")
+				foreground
+					any widget ,even a box (nested form)
+				can be bordered
+			text
+				not pressable
+				not italic
+					because un-understood by almost-absolute majority
+				not under-line
+					because straight under-lining ,is used for linking
+					curly/wavy is allowed ,while editing text
+				font
+					color
+						follow `web://en.wikipedia.org/wiki/Adwaita_(design_language)#Color`
+						intensity
+							default
+							less
+							more
+							least
+							most
+					family and weight
+						subjectively use ,"Poppins" for headings ,"Lexend" for body ,and "Inter"/"Cantarell" for others
+				type
+					top-heading
+					top-{sub-heading}
+					section-heading
+					section-{sub-heading}
+					title
+					sub-title
+					body
+				can only be english ,none else (not even devanagari)
+			icon
+				not pressable
+				color
+					follow text-widget
+			button
+				pressable
+				wrapped in box-widget
+				can contain icon ,text ,and other(non-button) widgets
+				can be disabled
+					press leads to shake-effect
+					states become in-valid
+				states
+					default
+					focused
+						leads to ,either a change in color ,or scale-up effect
+					pressed
+						leads to reverse-bounce/scale-down effect
+				action
+					primary
+					secondary
+					destructive
+			link
+				pressable text-widget
+				under-[straight-]lined
+			hyper-link
+				pressable media(picture/video) ,or object
+				press-ability should be mentioned explicitly ,below/besides the component
+			bordering
+				not pressable
+				for grouping [multiple-]widgets
+	theming
+		day/night
+			for back-ground [tint-]color
+			for fore-ground colors
+		accent
+			colors
+				for fore-ground
+		wall-paper
+			color
+			gradient
+			picture

@@ -1,0 +1,2 @@
+the framework is completely single-instance ,and does not even plan ,to support multiple windows ,even on desktop
+	,because the framework is temp. ,the ultimate goal is owning the full-stack ,completely ,including the lang.(currently dart)
